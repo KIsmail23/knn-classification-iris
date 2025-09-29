@@ -92,16 +92,28 @@ plt.show()
 
 
 
+Logistic Regression Accuracy:  1.0
+k-NN Accuracy k=5:  1.0
 
----
+ Logistic Regression Classification Report:
+              precision    recall  f1-score   support
 
-## 📈 Experiment: Accuracy vs k
-The script evaluates **k-NN** for k = 1 to 15 and plots accuracy.  
-This helps visualize how accuracy changes with different neighbor values.
+           0       1.00      1.00      1.00        10
+           1       1.00      1.00      1.00         9
+           2       1.00      1.00      1.00        11
 
-Example plot:
+    accuracy                           1.00        30
+   macro avg       1.00      1.00      1.00        30
+weighted avg       1.00      1.00      1.00        30
 
-![Accuracy vs k](https://scikit-learn.org/stable/_images/sphx_glr_plot_knn_classification_001.png)
 
----
+ k-NN Regression Classification Report:
+              precision    recall  f1-score   support
 
+           0       1.00      1.00      1.00        10
+           1       1.00      1.00      1.00         9
+           2       1.00      1.00      1.00        11
+
+    accuracy                           1.00        30
+   macro avg       1.00      1.00      1.00        30
+weighted avg       1.00      1.00      1.00        30
